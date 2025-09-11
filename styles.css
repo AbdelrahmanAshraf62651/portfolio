@@ -605,6 +605,10 @@ section {
 
 .project-content {
     padding: 2rem;
+    height: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .project-title {
@@ -624,6 +628,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    margin-top: auto;
 }
 
 .tech-tag {
